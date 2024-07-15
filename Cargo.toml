@@ -1,0 +1,19 @@
+[package]
+name = "auto-spelling-bee"
+version = "0.1.0"
+edition = "2021"
+authors = ["Cody Nhan Pham"]
+description = "A simple program that solves and (optionally) automatically types out the words for the Spelling Bee game."
+readme = "README.md"
+repository = "https://github.com/codynhanpham/auto-spelling-bee/"
+license = "MIT OR Apache-2.0"
+keywords = ["spelling bee", "CLI", "quiz","Rust"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+lazy_static = "1.5.0"
+colored = "2.1.0"
+rayon = "1.10.0"
+terminal_size = "0.3.0"
+enigo = "0.2.1"
+clearscreen = "3.0.0"
