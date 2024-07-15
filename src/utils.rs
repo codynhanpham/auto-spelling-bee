@@ -295,4 +295,5 @@ pub fn type_words(word: &Vec<&String>, delay_ms: &u64) {
         let _ = enigo.key(Key::Return, Release);
         std::thread::sleep(std::time::Duration::from_millis(*delay_ms));
     }
+    println!(); // Make sure the previous line is cleared
 }
