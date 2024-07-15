@@ -4,7 +4,7 @@ This is a simple program that solves and (optionally) automatically types out th
 ## Demo
 ![Spelling Bee Solver Demo](./demo/SpellingBeeDemo.gif)
 
-Or check out the [MP4 version](SpellingBeeDemo.mp4) of the demo instead.
+Or check out the [MP4 version](./demo/SpellingBeeDemo.mp4) of the demo instead.
 
 ## Usage
 1. Run the program.
